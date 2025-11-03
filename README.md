@@ -1,16 +1,76 @@
-# React + Vite
+## Overview  
+**Trading Solution** is a frontend project developed as part of a design and implementation task to test **UI/UX**, **layout structuring**, and **responsive design skills**.  
+The goal was to recreate the **post-login Zerodha Kite trading dashboard** with modern visuals, functional layouts, and reusable components.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project focuses on the frontend experience — including **portfolio summaries, live charts layout, sidebar navigation, and order placement interface**, built entirely using **React.js** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Objective  
+- Recreate a professional trading dashboard inspired by **Zerodha Kite**.  
+- Implement modular components for sidebar, charts, orders, and portfolio view.  
+- Ensure responsive design and intuitive navigation.  
+- Use **React.js + Tailwind CSS** to build a scalable frontend architecture.  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Tech Stack  
+- **Frontend:** React.js  
+- **Styling:** Tailwind CSS  
+- **Icons & Charts:** Lucide React / Recharts  
+- **Routing:** React Router DOM  
+- **Deployment:** GitHub Pages  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features  
+- Modern **Zerodha-style dashboard UI**  
+- **Sidebar navigation** for Orders, Holdings, Positions, and Funds  
+- **Responsive charts layout** (suitable for integration with Recharts or Chart.js)  
+- **Portfolio summary** cards for equity and investments  
+- **Order placement** mock interface  
+- **Fully responsive** and optimized for web and mobile screens  
+
+---
+
+
+## Setup Instructions  
+
+### 1 Clone the repository  
+```bash
+git clone https://github.com/<your-username>/trading-solution.git
+```
+
+### 2 Navigate into the project folder  
+```bash
+cd trading-solution
+```
+
+### 3 Install dependencies  
+```bash
+npm install
+```
+
+### 4 Run the development server  
+```bash
+npm run dev
+```
+
+### 5 Open in browser  
+Visit → `http://localhost:5173/` (or the link shown in terminal)
+
+---
+
+## Deployment  
+Vercel : 
+
+---
+
+## Future Enhancements  
+- Integrate **real trading data** using APIs  
+- Add **interactive charting** with live price updates  
+- Implement **order placement backend (Node.js + MongoDB)**  
+- Add **user authentication** and personalized dashboards  
+
+---
