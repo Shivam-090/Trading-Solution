@@ -63,7 +63,7 @@ Visit → `http://localhost:5173/` (or the link shown in terminal)
 ---
 
 ## Deployment  
-Vercel : 
+Vercel : https://trading-solution-seven.vercel.app/
 
 ---
 
