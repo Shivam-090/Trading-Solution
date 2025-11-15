@@ -14,8 +14,8 @@ const Profile = () => {
   return (
     <div className='bg-white w-full border border-gray-300'>
       
-        <div className='flex items-center py-2 bg-gray-100 border-b border-gray-300 justify-between px-2'>
-            <div className='grid hover:bg-blue-200'>
+        <div className='flex items-center py-2 bg-gray-100 border-b border-gray-300 justify-between hover:bg-blue-200 px-2'>
+            <div className='grid '>
             <span className='text-lg text-gray-700'>
                 User
             </span>
@@ -48,44 +48,44 @@ const Profile = () => {
         ></span>
       </label>
         </div>
-        <div className='p-2 space-y-2 border-b border-gray-300 hover:bg-blue-200'>
-            <div className='flex gap-2'>
+        <div className='py-2 space-y-2 border-b border-gray-300 '>
+            <div className='flex hover:bg-blue-200 px-2 gap-2'>
                 <PieChart className='w-4' />
                 <span className='text-sm'>
                     Console
                 </span>
 
             </div>
-            <div className='flex gap-2 hover:bg-blue-200'>
+            <div className='flex gap-2 hover:bg-blue-200 px-2'>
                  <Coins className='w-4' />
                 <span className='text-sm'>
                     Coin
                 </span>
 
             </div>
-            <div className='flex gap-2 hover:bg-blue-200'> 
+            <div className='flex gap-2 hover:bg-blue-200 px-2'> 
                 <CircleAlert className='w-4' />
                 <span className='text-sm'>
                     Support
                 </span>
 
             </div>
-            <div className='flex gap-2 hover:bg-blue-200'>
+            <div className='flex gap-2 hover:bg-blue-200 px-2'>
                 <PlusCircle className='w-4' />
                 <span className='text-sm'>Invite friends</span>
             </div>
 
         </div>
-        <div className='p-2 space-y-2'>
-            <div className='flex gap-2 hover:bg-blue-200'>
+        <div className='py-2 space-y-2'>
+            <div className='flex gap-2 hover:bg-blue-200 px-2'>
                 <Keyboard className='w-4' />
                 <span className='text-sm'>Keyboard shortcuts</span>
             </div>
-            <div className='flex gap-2 hover:bg-blue-200'>
+            <div className='flex gap-2 hover:bg-blue-200 px-2'>
                 <CircleQuestionMark className='w-4' />
                 <span className='text-sm'>User manual</span>
             </div>
-            <div className='flex gap-2 hover:bg-blue-200'>
+            <div className='flex gap-2 hover:bg-blue-200 px-2'>
                 <LogOut className='w-4' />
                 <span className='text-sm'>Logout</span>
             </div>
